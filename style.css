@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans";
+}
+
+/* BG: rgb(30,32,47) FG: #2E2D4A PRIMARY: #3F92DE SECONDARY: #6ACA6A */
+body {
+  background-color: rgb(30, 32, 47);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 200px 0;
+}
+
+h1 {
+  margin-bottom: 25px;
+}
+
+.card {
+  background-color: #2e2d4a;
+  padding: 25px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+input {
+  border: none;
+  border-radius: 20px;
+  color: black;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+button.tebak {
+  background-color: #3f92de;
+}
+
+button#reset {
+  background-color: #6aca6a;
+  min-width: 200px;
+  margin-top: 20px;
+}
